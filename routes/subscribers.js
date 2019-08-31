@@ -34,7 +34,7 @@ router.post('/', async (req, res) => {
 
 // Updating one
 
-// patch woild only update one property in object[ which has multiple properties]
+// patch would only update one property in object [which has multiple properties]
 // e.g. user = {name: '', age: ''} and we want to update name only...then use patch
 router.patch('/:id', getSubscriber, async (req, res) => {
     if (req.body.name != null) {
